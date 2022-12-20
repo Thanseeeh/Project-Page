@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+.header-navbar {
+    width: 100%;
+    height: 75px;
+    background: #be3144;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+}
+.nav-buttons {
+    columns: 100px 3;
+    height: 100%;
+    margin-top: -1px;
+    margin-right: 50px;
+}
+.nav-buttons li{
+    list-style: none;
+    height: 100%;
+}
+.indroduction {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding: 24px;
+    position: absolute;
+    cursor: pointer;
+}
+.indroduction:hover {
+    background: #3a3d40;
+}
+.projects {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding: 24px;
+    position: absolute;
+    cursor: pointer;
+}
+.projects:hover {
+    background: #3a3d40;
+}
+.contact {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding: 24px;
+    position: absolute;
+    cursor: pointer;
+}
+.contact:hover {
+    background: #3a3d40;
+}
