@@ -55,3 +55,44 @@ body {
 .contact:hover {
     background: #3a3d40;
 }
+#indroduction {
+    background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    width: 100%;
+    height: 961px;
+}
+#projects {
+    background: linear-gradient(62deg, #84c7cf 0%, #00b0c7 100%);
+    width: 100%;
+    height: 900px;
+}
+.intro-heading {
+    color: white;
+    display: inline-block;
+    padding-top: 420px;
+    padding-left: 37%;
+    font-size: 52px;
+    font-family: sans-serif;
+}
+.intro-para {
+    color: #be3144;
+    font-size: 28px;
+    font-family: system-ui;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    font-style: italic;
+    margin-left: 45%;
+    margin-top: -20px;
+}
+.projects-heading {
+    color: black;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 38px;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    font-weight: 800;
+    text-decoration-thickness: 2.5px;
+}
