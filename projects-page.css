@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
 }
@@ -439,4 +442,26 @@ body {
 }
 .call:hover {
     transform: scale(1.1);
+}
+.footer {
+    background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    border-top: solid 3px #be3144;
+    width: 1856px;
+    height: 100px;
+}
+.footer-para1 {
+    color: white;
+    font-size: 19px;
+    font-family: system-ui;
+    float: left;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+.footer-para2 {
+    color: white;
+    font-size: 19px;
+    font-family: system-ui;
+    float: left;
+    margin-left: 500px;
+    margin-top: 40px;
 }
